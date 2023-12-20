@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.arbeitserfahrung ul, .fachkenntnisse ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.arbeitserfahrung li, .fachkenntnisse li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.fachkenntnisse li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #0056b3;
+    background-color: #eef6fc;
+    border-color: #b6d4f2;
+}
