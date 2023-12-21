@@ -8,7 +8,10 @@ body {
 main {
     max-width: 800px;
     margin: 20px auto;
-    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -16,6 +19,7 @@ main {
 
 h2 {
     color: #333;
+    margin-bottom: 10px;
 }
 
 .persoenliche-info, .hobbies, .staerken-schwaechen, .erfahrungen {
@@ -36,5 +40,10 @@ h2 {
 }
 
 .text, .hobbies p, .staerken-schwaechen p, .erfahrungen p {
-    text-align: justify;
+    text-align:justify;
+    hyphens: auto;
+}
+
+p {
+    margin-top: 8px;
 }

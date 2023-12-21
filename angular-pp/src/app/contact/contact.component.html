@@ -1,3 +1,5 @@
+<!-- Probiert mit Strapi
+
 <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
     <div>
       <label for="name">Name:</label>
@@ -13,4 +15,41 @@
     </div>
     <button type="submit" [disabled]="!contactForm.valid">Senden</button>
   </form>
+
+-->
   
+  <div class="kontakt">
+    <div class="kontakt-block">
+        <h1>Möchten Sie mich kontaktieren?</h1>
+        <form action="https://form.taxi/s/gtdqv3ey" id="ft-form" method="POST" accept-charset="UTF-8">
+            <fieldset>
+              <label>
+                Name:
+                <input type="text" name="Name" required>
+              </label>
+              <label>
+                E-Mail-Adresse:
+                <input type="email" name="E-Mail" required/>
+              </label>
+              <label>
+                Betreff:
+                <input type="text" name="Betreff" required>
+              </label>
+              <label>
+                Ihre Nachricht:
+                <textarea rows="12" name="Nachricht" required></textarea>
+              </label>
+              <div>
+                <label>
+                  <input type="checkbox" name="Datenverarbeitung bestätigt" value="Ja" required>
+                  Ich bestätige, dass ich mit der Verarbeitung meiner Eingaben zum Zwecke der Anfragebearbeitung, einverstanden bin.
+                </label>
+              </div>
+            </fieldset>
+            <div class="btns">
+              <input type="text" name="_gotcha" value="" style="display:none;">
+              <input type="submit" value="Absenden">
+            </div>
+          </form>
+    </div>
+</div>

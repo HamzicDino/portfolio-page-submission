@@ -37,4 +37,5 @@ h2 {
 
 .text, .hobbies p, .staerken-schwaechen p, .erfahrungen p {
     text-align: justify;
+    hyphens: auto;
 }
