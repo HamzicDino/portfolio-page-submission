@@ -81,10 +81,12 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/pictures"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
             ],
             "scripts": []
           }
