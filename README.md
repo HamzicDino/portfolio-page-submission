@@ -1,6 +1,14 @@
 # portfolio-page-submission
 
-Das Projekt wurde mit Angular aufgesetzt. Nachfolgend die wichtigsten Commands:
+Diese Seite wurde im Rahmen des Moduls EWEB aufgesetzt. 
+
+Für das Frontend wurde mit Angular garbeitet. Das Backend mit Strapi.
+
+Leider hat das Kontaktformular bis anhin noch nicht funktioniert, weshalb es vorübergehend mit Formtaxi gemacht wurde.
+
+Das Projekt wurde ausserdem mit Hilfe der beiden Angular und Strapi Dokumentationen aufgesetzt. Zudem hat ChatGPT bim HTML und CSS ein wenig geholfen. JEglicher Text wurde entweder von mir verfasst, oder durch ChatGPT inspiriert und ein wenig abgeändert durch mich.
+
+Das Projekt wurde wie gesagt mit Angular aufgesetzt. Nachfolgend die wichtigsten Commands:
 
 ng <command>
 
