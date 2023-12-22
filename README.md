@@ -21,5 +21,3 @@ Commands:
   -------------------------
 
   Im Terminal mit "ng serve --o" wird die Seite im localhost geöffnet.
-
-  Das Projekt wurde m
